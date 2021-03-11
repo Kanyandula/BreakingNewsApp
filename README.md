@@ -6,10 +6,8 @@ This is a News application that fetches data from the network and display it to 
   </p>
 
 
-
-
 ## Tech Stack
-<img src="/https://media.giphy.com/media/viIdXIa2EaP0883TM3/giphy.gif" align="right" width="20%"/>
+![Animated GIF-downsized_large](https://user-images.githubusercontent.com/37294453/110720400-64f31900-8206-11eb-990e-6cf8b62f71ee.gif)
 
 - [Kotlin](https://kotlinlang.org/)  
 - [Coroutines](https://github.com/Kotlin/kotlinx.coroutines)  
