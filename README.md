@@ -2,7 +2,7 @@
 
 
 <p align="center">
-This is a News application that fetches data from the network and display it to the user. I has got functionalities that let the user  search, save , share and delete favourite news article by swiping left  or right. The app launches with an animated splash screen an has a very nice Icon.
+This is a News application that fetches data from the network and display it to the user. It has got functionalities that let the user  search, save , share and delete favourite news article by swiping left  or right. The app launches with an animated splash screen an has a very nice Icon.
   </p>
 
 
