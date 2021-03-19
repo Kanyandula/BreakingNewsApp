@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.news.R
 import com.example.news.adapters.NewsAdapter
-import com.example.news.models.Article
+
 import com.example.news.ui.NewsActivity
 import com.example.news.ui.NewsViewModel
 import com.example.news.util.Constants.Companion.QUERY_PAGE_SIZE
@@ -82,9 +82,7 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
         })
 
 
-//        swipe_refresh_layout.setOnRefreshListener {
-//            viewModel.onManualRefresh()
-//        }
+
 
         btnRetry.setOnClickListener {
             viewModel.getBreakingNews("ie")
@@ -179,11 +177,7 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
     }
 
 
-    private fun displayData(show: Article) {
-//        tvBreakingNews.text = show.title.toString()
 
-
-    }
 }
 
 

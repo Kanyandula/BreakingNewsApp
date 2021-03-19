@@ -6,15 +6,13 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.View
 import android.widget.AbsListView
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.SearchView
-import androidx.core.view.isInvisible
-import androidx.core.view.isVisible
+
 
 
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
+
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -60,7 +58,7 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
         viewModel.searchNews.observe(viewLifecycleOwner, { response ->
             when (response) {
                 is Resource.Success -> {
-                    // showHideSearchTextView(text_view_empty)
+
                     hideSearchTextView()
                     hideProgressBar()
                     response.data?.let { newsResponse ->

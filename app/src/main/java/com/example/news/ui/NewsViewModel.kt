@@ -36,11 +36,6 @@ class NewsViewModel(
 
     private val refreshTriggerChannel = Channel<Refresh>()
 
-   // private val _showUpDate: MutableLiveData<Resource< MutableList<Article>>> = MutableLiveData()
-
-   //val showUpDate  = articles
-    //: LiveData<Resource< MutableList<Article>>>
-    // get() = _showUpDate
 
 
     init {
